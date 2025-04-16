@@ -1,0 +1,14 @@
+{
+  "oembed-field.custom-field.label": "oEmbed",
+  "oembed-field.custom-field.description": "Embed content from external sources",
+
+  "oembed-field.form.button.import": "Click to import oEmbed content from a URL",
+  "oembed-field.form.button.open": "Open",
+  "oembed-field.form.button.edit": "Edit",
+  "oembed-field.form.button.delete": "Delete",
+
+  "oembed-field.modal.import.title": "Import oEmbed",
+  "oembed-field.modal.import.input.label": "URL",
+  "oembed-field.modal.import.input.description": "The URL you would like to retrieve metadata from",
+  "oembed-field.modal.import.button.import": "Import"
+}
