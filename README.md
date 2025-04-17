@@ -1,20 +1,17 @@
 # Strap plugin: oEmbed field
 
-[Strapi v5](https://strapi.io) oEmbed field - allows videos, pictures and rich fields to be selected from third parties in the admin interface.
+[Strapi v5](https://strapi.io) oEmbed field - allows videos, pictures and rich fields to be embedded from hundreds of third-parties in the admin interface.
 
-Implements [@extractus/oembed-extractor](https://github.com/extractus/oembed-extractor) to access hundreds of providers.
+![Example of the strapi-plugin-oembed-field plugin](demo.gif)
+
+Read the article [Enhance your Strapi content with rich media using oEmbed](https://medium.com/@bashaus/enhance-your-strapi-content-with-rich-media-using-oembed-59d0f5047603)
 
 ## Use cases
 
-- Include videos (YouTube, Vimeo, Dailymotion, etc.)
-- Select and embed tweets
-
-## How it works
-
-- Add the field in your model
-- When you create a new content, paste the URL of the third party site in the modal
-- The data is fetched and stored in the field
-- A cached thumbnail is also attached
+- Video: YouTube, Vimeo, TikTok, Twitch, DailyMotion
+- Photo: Imgur, Flickr, DeviantArt, Unsplash, Instagram
+- Rich: Twitter, Pinterest, SlideShare, SoundCloud, CodePen, JSFiddle
+- ... plus [hundreds more providers](https://oembed.com/providers.json).
 
 ## Installation
 
@@ -45,7 +42,7 @@ export default () => ({
 
 Edit the `content type` model and insert the `oembed` field to the`attributes` section.
 
-`./src/api/[content-type]/models/[content-type].settings.json`
+`./src/api/[content-type]/content-types/[content-type]/schema.json`
 
 ```json
 {

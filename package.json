@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-oembed-field",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Embed content from third party sites in Strapi",
   "homepage": "https://github.com/bashaus/strapi-plugin-oembed-field",
   "repository": {
